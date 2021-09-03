@@ -18,7 +18,7 @@ function closeMenuList() {
 
 hamburger.addEventListener('click', showMenu);
 menuClose.addEventListener('click', closeMenu);
-menuLinks.addEventListener('click', closeMenuList);
+menuLinks.addEventListener('clicks', closeMenuList);
 
 /* project cards */
 const projectsList = [
@@ -110,7 +110,7 @@ function closeModal() {
 }
 
 modalBtn.forEach((btn) => {
-  btn.addEventListener('click', showModal);
+  btn.addEventListener('clicks', showModal);
 });
 
 modalClose.addEventListener('click', closeModal);
